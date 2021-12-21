@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>613</width>
+    <height>346</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Application</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:LightSteelBlue;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>10</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>ArrowCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Alege un buton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button1">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>70</y>
+      <width>151</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button2">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>70</y>
+      <width>151</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button5">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>180</y>
+      <width>151</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>5</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button4">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>180</y>
+      <width>151</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>4</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button3">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>70</y>
+      <width>151</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>3</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button6">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>180</y>
+      <width>151</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>6</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>613</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;
+color:black;
+font-family: &quot;Times New Roman&quot;, Times, serif;
+font-size:20px;
+font-style: italic;</string>
+   </property>
+   <widget class="QMenu" name="instructiuni">
+    <property name="styleSheet">
+     <string notr="true">background-color:white;
+color:black;
+font-family: &quot;Times New Roman&quot;, Times, serif;
+font-size:20px;
+font-style: italic;</string>
+    </property>
+    <property name="title">
+     <string>Instructiuni</string>
+    </property>
+    <addaction name="actionInstructiuni_3"/>
+   </widget>
+   <addaction name="instructiuni"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionhello">
+   <property name="text">
+    <string>hello</string>
+   </property>
+  </action>
+  <action name="actionInstructiuni_2">
+   <property name="text">
+    <string>Instructiuni</string>
+   </property>
+  </action>
+  <action name="actionInstructiuni_3">
+   <property name="text">
+    <string>Instructiuni</string>
+   </property>
+  </action>
+  <action name="actionBonus">
+   <property name="text">
+    <string>Bonus</string>
+   </property>
+  </action>
+  <action name="actionBonus_2">
+   <property name="text">
+    <string>Bonus</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
